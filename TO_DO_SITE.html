@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+
+<title> TO DO LIST FOR UNIVERSITY</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+
+<body>
+
+<h1> TO DO LIST(UNIVERSITY)</h1>
+
+
+<tr>
+
+<td> <input type="text" id="myText" value=""> </td>
+
+<td> <button class="super_button" onclick= "a()"> add new quest</button> </td>
+
+<td> <img src="timetable_2nd_year_1st_semester.jpg" > </td>
+</tr>
+
+
+
+
+
+<p id ="demo"></p>
+<p id = "demo_2"></p>
+<p id = "demo_3"></p>
+
+
+
+
+<script>
+
+
+function add_quest(){
+    var x;
+    x = document.getElementById("myText").value
+    //document.getElementById("demo").innerHTML = x;
+    //LST.push(x)
+    return(x)
+}
+
+
+var LST =[];
+//document.getElementById("demo_2").innerHTML = LST;
+
+
+
+
+
+function a(){
+    //document.getElementById("demo").innerHTML = add_quest();
+    x= add_quest();
+    LST.push(x+"<br>")
+    document.getElementById("demo_2").innerHTML = LST;
+    //document.getElementById("demo").innerHTML = x ;
+    //document.getElementById("demo_3").innerHTML = "hello";
+
+}
+
+
+
+
+
+/*function delete_first(){
+    document.getElementById("demo_3").innerHTML = "hello MAX";
+    //document.write("duuuuuude")
+    //document.getElementById("demo_3").innerHTML = LST;
+    //delete LST[0]
+    //document.getElementById("demo_3").innerHTML = LST;
+
+
+}
+
+function delete_last(){
+    LST.pop()
+    document.getElementById("demo_3").innerHTML = LST;
+
+
+}*/
+
+
+
+
+    /*for(i=0; i<2; i++){
+        add_quest()
+    }*/
+    //return add_quest()
+
+
+
+//document.getElementById("demo_2").innerHTML = LST;
+
+
+
+
+
+
+
+
+</script>
+
+
+
+</body>
+
+</html>

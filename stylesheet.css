@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(201, 171, 224, 0.924);
+    color: green;
+    font-size: 34px;
+}
+
+
+h1{
+    color: yellow;
+    text-align: center;
+}
+
+input[type="text"]{
+    font-size: 30px;
+    width: 300px;
+    height: 32px;
+    vertical-align: middle;
+}
+
+.super_button{
+    background-color: RGB(200,0,0);
+    color:RGB(255,235,0);
+    font-size: 29px;
+    vertical-align: middle;
+    
+}
+
+
+img[src="timetable_2nd_year_1st_semester.jpg"]{
+    position: absolute;
+    right: 0px;
+    border: 1px solid black;
+    width: 1000px;
+    
+}
